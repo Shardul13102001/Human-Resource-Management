@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testCases.LoginDDT" />
+			<class name="testCases.TC01_GetAllOptions" />
+			<class name="testCases.TC02_SearchByUsername" />
+			<class name="testCases.TC03_SearchByUserRole" />
+			<class name="testCases.TC04_SearchByStatus" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
